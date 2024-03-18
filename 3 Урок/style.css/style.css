@@ -1,0 +1,30 @@
+body {
+    background-color: blueviolet;
+    color: aliceblue;
+    text-align: center;
+    font-family: cursive;
+}
+
+
+
+li{
+    list-style: none;
+}
+
+
+li{
+    color: white;
+    background: blue;
+    margin: 10 px 0;
+    padding: 30px 15px;
+
+
+    transition: 0.4s ease-in-out;
+}
+
+
+li:hover{
+    background: red;
+    border-radius: 30px;
+    transform: scale(0.9);
+}

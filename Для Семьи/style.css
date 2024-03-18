@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    gap: 50px;
+    list-style: none;
+    display:flex
+}
+
+nav img {
+    width: 550px;
+}
+
+header {
+    padding: 50px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background: url(https://img.freepik.com/free-photo/side-view-cook-making-delicious-pasta_23-2150690631.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1698796800&semt=sph);
+}
+
+a {
+    color: inherit;
+}
+
+li {
+    color: white;
+}
+
+
+form button {
+    padding: 8px 19px;
+    width: 230px;
+    border-radius: 12px;
+    border: 1px solid red;
+    background: yellow;
+    color: white;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+body {
+    background: #151515;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form {
+    width: 40%;
+    height: 50vh;
+    background: #151515;
+    color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+
+form input {
+    padding: 8px 19px;
+    border-radius: 12px;
+    outline: none;
+    border: 1px solid #fff;
+    background: transparent;
+    color: white;
+}
+
+
+button {
+    
+}
+
+
+
+  
+
+
+
+

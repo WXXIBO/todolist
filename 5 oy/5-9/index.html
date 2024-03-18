@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <div id="timer">00:00:00</div>
+<button id="startButton">Старт</button>
+<button id="stopButton">Стоп</button>
+
+<script>
+var timerDisplay = document.getElementById('timer');
+var startButton = document.getElementById('startButton');
+var stopButton = document.getElementById('stopButton');
+
+var timerInterval;
+var startTime;
+var elapsedTime = 0;
+
+// Функция для обновления отображения времени
+function updateTimerDisplay() {
+  var hours = Math.floor(elapsedTime / 3600000);
+  var minutes = Math.floor((elapsedTime % 3600000) / 60000);
+  var seconds = Math.floor((elapsedTime % 60000) / 1000);
+
+  hours = ('0' + hours).slice(-2);
+  minutes = ('0' + minutes).slice(-2);
+  seconds = ('0' + seconds).slice(-2);
+
+  timerDisplay.textContent = hours + ':' + minutes + ':' + seconds;
+}
+
+// Функция для запуска таймера
+function startTimer() {
+  startTime = Date.now() - elapsedTime;
+  timerInterval = setInterval(function() {
+    elapsedTime = Date.now() - startTime;
+    updateTimerDisplay();
+  }, 1000);
+
+  startButton.disabled = true;
+  stopButton.disabled = false;
+}
+
+// Функция для остановки таймера
+function stopTimer() {
+  clearInterval(timerInterval);
+  startButton.disabled = false;
+  stopButton.disabled = true;
+}
+
+// Добавляем обработчики событий на кнопки
+startButton.addEventListener('click', startTimer);
+stopButton.addEventListener('click', stopTimer);
+
+// Инициализируем отображение времени
+updateTimerDisplay();
+</script> -->
+
+    <button id=" " class="opens">Open</button>
+    <button id="closes" class="">Close</button>
+    <button id="engenes" class="">Engene</button>
+    <button id="bagajes" class="">Bagaj</button>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,157 @@
+* { 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+    font-family: sans-serif; 
+    text-decoration: none; 
+    color: inherit; 
+    list-style: none; 
+} 
+ 
+.container { 
+    width: 100%; 
+    max-width: 90%; 
+    margin: 0 auto; 
+} 
+ 
+header { 
+    background: #EDE6DD; 
+} 
+ 
+header nav { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+} 
+ 
+header nav ul { 
+    display: flex; 
+    align-items: center; 
+    gap: 36px; 
+    padding: 40px 0; 
+    color: #1E1928; 
+} 
+ 
+.showcase { 
+    display: flex; 
+    align-items: center; 
+    gap: 15%; 
+} 
+ 
+.showcase>div { 
+    flex: 1; 
+} 
+ 
+.showcase-title { 
+    font-size: 48px; 
+    line-height: 58px; 
+    font-weight: 400; 
+} 
+ 
+.showcase-description { 
+    line-height: 30px; 
+    letter-spacing: 0.25px; 
+    color: #1E1928; 
+    opacity: 0.8; 
+    padding: 24px 0 28px; 
+} 
+ 
+.showcase-label { 
+    padding-bottom: 15px; 
+    color: #1E1928; 
+    font-size: 17px; 
+} 
+ 
+.input-group { 
+    position: relative; 
+    max-width: 448px; 
+    max-height: 56px; 
+    margin-top: 20px; 
+    position: relative;
+} 
+ 
+.input-group input { 
+    width: 100%; 
+    height: 100%; 
+    border: 1px solid transparent; 
+    outline: transparent; 
+    padding: 10px 19px; 
+    border-radius: 30px; 
+    height: 56px;
+} 
+ 
+.btn-primary { 
+    background: #F4EFE9; 
+    padding: 10px 32px; 
+    background: #1E1928; 
+    border-radius: 30px; 
+    border: 1px solid transparent; 
+    color: #fff; 
+    font-weight: 400; 
+    font-size: 14px; 
+}
+
+.showcase button{
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translate(0%, -50%);
+}
+
+
+
+.cards { 
+    display: flex; 
+    align-items: center; 
+    gap: 5%; 
+} 
+ 
+.card { 
+    flex: 1; 
+    width: 25%; 
+    background: #1E1928; 
+    color: #fff; 
+} 
+ 
+.card img { 
+    width: 100%; 
+    border-radius: 30px; 
+} 
+ 
+.card { 
+    padding: 12px; 
+    border-radius: 20px; 
+    position: relative; 
+} 
+ 
+.card p { 
+    padding: 20px 0; 
+} 
+ 
+.new { 
+    width: 40px; 
+    height: 40px; 
+    border-radius: 100%; 
+    background: red; 
+    color: #fff; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    position: absolute; 
+    top: 5%; 
+    right: 5%; 
+} 
+ 
+.top { 
+    width: 40px; 
+    height: 40px; 
+    border-radius: 100%; 
+    background: red; 
+    color: #fff; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    position: absolute; 
+    top: 5%; 
+    right: 18%; 
+}

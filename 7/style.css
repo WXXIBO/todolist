@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav img {
+  width: 50px;
+}
+
+a {
+  color: inherit;
+}
+
+header {
+  padding: 50px;
+}
+
+nav ul li:nth-child(1) {
+  color: rgb(0, 0, 255);
+}
+
+nav ul li:nth-child(2) {
+  color: red;
+}
+
+nav ul li:nth-child(3) {
+  color: aqua;
+}
+
+section:nth-child(1) {
+    padding: 50px; 
+    background: aqua;
+    color: black;
+    text-align: center;
+    border-radius: 100px;
+}
+
+section:nth-child(2) {
+    padding: 50px; 
+    background: blue;
+    color: red;
+    text-align: center;
+    border-radius: 100px;
+}
+
+header {
+    padding: 50px;
+    background: url(https://cdn-9.motorsport.com/images/amp/Y99y4XAY/s1000/endurance-bmw-m4-gt3-unveil-20-2.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2? Family= Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800 & display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: inherit;
+    text-decoration: none;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+:root {
+    --asosiy-rang: #1aab7b;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 1px solid #eeeef4;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+
+header .left{
+    display: flex;
+    gap: 50px;
+}
+
+header ul {
+   display: flex; 
+   align-items: center;
+   gap: 30px;
+}
+
+.right a {
+    padding: 12px 24px;
+    border-radius: 6px;
+    background: #101010;
+    color: #fff;
+    font-weight: 700;
+}
+
+.showcase .container {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 92px);
+}
+
+.showcase .container > div {
+    flex: 1;
+}
+
+.showcase-left h1 {
+    font-size: 56px;
+    line-height: 78.4px;
+    color: #101010;
+    max-width: 550px;
+}
+
+.showcase-left p {
+    font-size: 18px;
+    color: #636f87;
+    line-height: 27px;
+    max-width: 537px;
+    padding: 20px 0 40px;
+}
+
+.primary-btn{
+    background: var(--asosiy-rang);
+    padding: 20px 40px;
+    color: #fff;
+    border-radius: 1px solid transparent;
+}

@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    background-image: url(Best_Mac_to_do_list_apps.jpg);
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 28px;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ced4da;
+}
+
+.todo-item:last-child {
+    border-bottom: none;
+}
+
+.todo-text {
+    flex: 1;
+    font-size: 18px;
+    color: #343a40;
+}
+
+.todo-item button {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.todo-item button:hover {
+    color: #0056b3;
+}

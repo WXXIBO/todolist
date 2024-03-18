@@ -1,0 +1,137 @@
+* { 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+    font-family: sans-serif; 
+    color: inherit; 
+    list-style: none; 
+    text-decoration: none; 
+  } 
+   
+  .container { 
+    width: 70%; 
+    margin: 0 auto; 
+  } 
+   
+  header { 
+    background: #eeeff1; 
+    height: 100vh; 
+  } 
+   
+  nav .container { 
+    display: flex; 
+    justify-content: space-between; 
+    padding: 57px 0 20px; 
+  } 
+   
+  nav .container ul { 
+    display: flex; 
+    align-items: center; 
+    gap: 42px; 
+    font-weight: 500; 
+  } 
+   
+  nav .container ul li:nth-child(1) { 
+    color: #34547a; 
+  } 
+   
+  .showcase { 
+      display: flex; 
+      align-items: center; 
+      height: calc(100vh - 120px); 
+      gap: 10%; 
+  } 
+   
+  .showcase-right { 
+      display: flex; 
+      flex-direction: column; 
+      justify-content: center; 
+   
+      gap: 60px; 
+  } 
+   
+   
+  .showcase-title { 
+      font-size: 48px; 
+      font-weight: 500; 
+  } 
+   
+  .showcase-desc { 
+      color: #727272; 
+      max-width: 540px; 
+      line-height: 26.25px; 
+  } 
+   
+  .showcase button { 
+      max-width: 225px; 
+      padding: 25px 0; 
+      background: #34547a; 
+      color: #fff; 
+      border: 1px solid transparent; 
+  }
+
+
+  .showcase-desk{
+    color: #727272;
+    max-width: 540px;
+    line-height: 26.25px;
+  }
+
+  .showcase button{
+    max-width: 225px;
+    padding: 25px 0;
+    background: #34547a;
+    color: #fff;
+    border: 2px solid transparent;
+    transition: 0.3s;
+  }
+
+
+  .showcase button:hover {
+    background: transparent;
+    color: #34547a;
+    border: 2px solid #34547a;
+  }
+
+
+  .showcase button :active {
+    transform: scale(0.92);
+  }
+
+
+  .about {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 119px 0 100px;
+  }
+
+
+  .about h1 {
+    font-size: 38px;
+  }
+
+  .about p {
+    max-width: 540px;
+    margin-top: 50px;
+  }
+
+  .projects {
+    background: #34547a;
+    color: #fff;
+    padding: 100px 0;
+  }
+
+
+.projects .cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards .card {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+}

@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+}
+
+body {
+    background: yellow;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    padding: 0 20px;
+    border-radius: 100px;
+    margin: 20px 0;
+}
+
+nav a {
+    
+}
